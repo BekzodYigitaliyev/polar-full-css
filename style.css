@@ -1,0 +1,718 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&family=Hind+Madurai:wght@300;400;500;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 1600px;
+  height: 5738px;
+  background: #FFF;
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  width: 1600px;
+  height: 862px;
+  background: #F2CEDA;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.nav_logo {
+  width: 79px;
+  height: 79px;
+  margin-left: 245px;
+}
+
+.nav_menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  gap: 40px;
+  margin-top: 32px;
+}
+
+.nav_item {
+  color: #150101;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.active {
+  width: 41px;
+  height: 18px;
+  color: #DC0048;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.nav_btn {
+  width: 165px;
+  height: 49px;
+  border-radius: 5px;
+  background: #DC0048;
+  color: #FAFAFA;
+  font-family: 'Hind Madurai', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 14px 50px;
+  margin-top: 15px;
+  margin-right: 230px;
+  text-decoration: none;
+}
+
+.header_img {
+  display: flex;
+  justify-content: space-between;
+  padding: 126px 114px 139px 254px;
+}
+
+.img_right {
+  flex-direction: row-reverse;
+}
+
+.header_content {
+  align-items: center;
+}
+
+.header_title {
+  color: #0F0101;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 500px;
+  letter-spacing: 1.4px;
+  margin-bottom: 6px;
+  margin-top: 120px;
+}
+
+.header_title2 {
+  width: 665px;
+  height: 130px;
+  color: #0F0101;
+  font-family: 'Fredoka', sans-serif;
+  font-size: 57.33px;
+  font-style: normal;
+  font-weight: 400px;
+  line-height: 120.5%;
+  /* 69.083px */
+  margin: 6px 0 35px;
+}
+
+.ice-cream {
+  opacity: 0.9;
+  color: #D23166;
+  font-family: 'Fredoka', sans-serif;
+  font-size: 58px;
+  font-weight: 400px;
+  line-height: 120.5%;
+}
+
+.header_text {
+  width: 523px;
+  height: 78px;
+  color: #0F0101;
+  font-family: 'Hind Madurai', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  /* 150% */
+  opacity: 0.6;
+  margin-bottom: 70px;
+}
+
+.btn2 {
+  background: #D23166;
+}
+
+/* Delivery */
+
+.delivery {
+  padding: 100px 231px 101px 252px;
+}
+
+.delivery-row {
+  display: flex;
+}
+
+.delivery_content {
+  width: 250px;
+  height: 200px;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.img2 {
+  width: 32px;
+  height: 42px;
+}
+
+.img3 {
+  width: 44px;
+  height: 44px;
+}
+
+.img4 {
+  width: 54px;
+  height: 54px;
+  margin-bottom: -10px;
+}
+
+.delivery_title {
+  color: #000;
+  font-family: 'Hind Madurai', sans-serif;
+  font-size: 20px;
+  font-weight: 600px;
+  margin-bottom: 9px;
+}
+
+.delivery_text {
+  width: 198px;
+  height: 35px;
+  color: #000;
+  text-align: center;
+  font-family: 'Hind Madurai', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  opacity: 0.6;
+  margin-left: 26px;
+}
+
+.sugar {
+  width: 1600;
+  height: 544px;
+  background: #F8EDF0;
+}
+
+.sugar_content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+
+.sugar_box {
+  padding-bottom: 147px;
+}
+
+.sugar_title {
+  width: 349px;
+  height: 98.27px;
+  color: #150101;
+  font-family: 'Hind Madurai', sans-serif;
+  font-size: 44.2px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 110.5%;
+  /* 48.841px */
+  margin-left: 231px;
+  margin-bottom: 109px;
+}
+
+.sugar_img {
+  margin-right: 177px;
+}
+
+.qant {
+  width: 600px;
+  height: 600px;
+}
+
+.sugar_btn {
+  width: 165px;
+  height: 49px;
+  border-radius: 5px;
+  background: #D64374;
+  color: #FAFAFA;
+  font-family: 'Hind Madurai', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 14px 50px;
+  text-decoration: none;
+  margin-left: 231px;
+}
+
+/* Our product */
+
+.product {
+  width: 1596px;
+}
+
+.our_title {
+  text-align: center;
+  color: #150101;
+  font-family: 'Hind Madurai', sans-serif;
+  font-size: 44.2px;
+  font-style: normal;
+  font-weight: 600;
+  margin-top: 137px;
+}
+
+.our_container {
+  margin-top: 64px;
+}
+
+.our_list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  gap: 40px;
+}
+
+.our_item {
+  color: #000;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  opacity: 0.6;
+}
+
+.our_item-aktiv {
+  width: 93px;
+  height: 21px;
+  color: #000;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: underline;
+  text-decoration-color: #D64374;
+}
+
+.products {
+  padding: 46px 211px 149px 251px;
+}
+
+.product_brown {
+  display: flex;
+  justify-content: space-between;
+}
+
+.brown {
+  color: #000;
+  font-family: 'Hind Madurai', sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.our_text {
+  width: 454px;
+  height: 67px;
+  flex-shrink: 0;
+  color: #000;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  /* 150% */
+  opacity: 0.7;
+}
+
+
+.number1 {
+  width: 71px;
+  height: 27px;
+  flex-shrink: 0;
+  color: #000;
+  font-family: 'Hind Madurai', sans-serif;
+  font-size: 26px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.number2 {
+  width: 58px;
+  height: 27px;
+  flex-shrink: 0;
+  color: #000;
+  text-align: right;
+  font-family: 'Hind Madurai', sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration-line: line-through;
+  opacity: 0.7
+}
+
+.product_btn {
+  width: 165px;
+  height: 49px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  padding: 15px 50px;
+  text-decoration: none;
+  background: #D64374;
+  color: #FAFAFA;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.gap {
+  padding-left: 85px;
+  margin-top: 50px;
+}
+
+.product_brown2 {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+
+.our_textright {
+  text-align: end;
+  margin-top: 70px;
+
+}
+
+.our_sumright {
+  display: flex;
+  gap: 5px;
+  align-items: baseline;
+  margin-top: 28px;
+  margin-bottom: 15px;
+}
+
+.our_sumright2 {
+  text-align: end;
+  margin-bottom: 10px;
+}
+
+.product_brown3 {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  margin-top: 112px;
+}
+
+.girl_position {
+  display: flex;
+  margin-top: 70px;
+}
+
+.girl_photo {
+  width: 59px;
+  height: 58px;
+}
+
+.girl {
+  flex-direction: column;
+  gap: 5px;
+}
+
+.girl_name {
+  color: #000;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  font-weight: 500px;
+  padding-left: 21px;
+  margin: 0 auto;
+
+}
+
+.from {
+  width: 77px;
+  height: 15px;
+  flex-shrink: 0;
+  color: #000;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  opacity: 0.7;
+  padding-left: 11px;
+}
+
+.girl_text {
+  width: 322px;
+  height: 53px;
+  flex-shrink: 0;
+  color: #000;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  /* 150% */
+  opacity: 0.7;
+  padding-top: 46px;
+  margin: 0 auto;
+}
+
+.people {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Download menu */
+
+.download_menu {
+  width: 1600px;
+  height: 725px;
+  background-color: #FFF;
+}
+
+.menu_order {
+  background-color: #F8EDF0;
+  padding: 47px 0;
+}
+
+.order_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.order_malina {
+  width: 505px;
+  height: 800px;
+  padding: 98px 0 47px 220px;
+}
+
+.order_list {
+  margin-bottom: 30px;
+  padding-right: 320px;
+}
+
+.order_title {
+  color: #000;
+  font-family: 'Roboto', sans-serif;
+  font-size: 44.2px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.order_text {
+  width: 607px;
+  height: 60px;
+  color: #0F0101;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.18px;
+  opacity: 0.7;
+}
+
+.order_connect {
+  display: flex;
+  gap: 10px;
+  padding-bottom: 10px;
+  align-items: center;
+}
+
+.connect_text {
+  color: #000;
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.karzina {
+  width: 30px;
+  height: 30px;
+  border-radius: 3px;
+  background: #FFF;
+  padding: 8px 9px;
+}
+
+.connect_system {
+  display: flex;
+  padding-top: 35px;
+}
+
+.ask {
+  background: #FFF;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.ask_title {
+  flex-shrink: 0;
+  color: #000;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 44px;
+  font-weight: 500;
+  padding: 191px 603px 28px 475px;
+}
+
+.ask_search {
+  margin-bottom: 149px;
+}
+
+.ask_label {
+  width: 600px;
+  height: 74px;
+  padding: 28px 40px;
+  background: #FAFAFA;
+  border-radius: 5px;
+  border: 0;
+}
+
+.ask_btn {
+  text-decoration: none;
+  width: 134px;
+  height: 74px;
+  border-radius: 5px;
+  background: #D64374;
+  padding: 28px 40px;
+}
+
+.send_btn {
+  width: 57px;
+  height: 18px;
+  flex-shrink: 0;
+  color: #FFF;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 500
+}
+
+/* Footer */
+
+.futer_box {
+  width: 1600px;
+  height: 381px;
+  background: #0A0808;
+}
+
+.futer_style {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.futer_logo {
+  padding-top: 70px;
+}
+
+.logo_text {
+  width: 207px;
+  height: 47px;
+  flex-shrink: 0;
+  color: #FFF;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 139.687%;
+  /* 16.762px */
+  letter-spacing: 0.12px;
+  opacity: 0.7;
+  margin-top: 9px;
+}
+
+.logo_title {
+  color: #FFF;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  margin-top: 25px;
+  margin-bottom: 8px;
+}
+
+.social {
+  padding-right: 10px;
+}
+
+.futer_home {
+  margin-top: 143px;
+}
+
+.futer_menu {
+  list-style: none;
+}
+
+.futer_item {
+  color: #FFF;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  opacity: 0.7;
+  padding-top: 10px;
+}
+
+.home {
+  color: #FFF;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.futer_info {
+  margin-top: 110px;
+  padding-left: 132px;
+}
+
+.info_item {
+  padding-top: 10px;
+  list-style: none;
+}
+
+.news {
+  padding-left: 151px;
+  padding-top: 116px;
+}
+
+.news_title {
+  color: #FFF;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0 auto;
+}
+
+.email_content {
+  padding-top: 13px;
+  padding-right: 0 auto;
+  margin-bottom: 18px;
+}
+
+.email {
+  width: 320px;
+  height: 55px;
+  background: #0A0808;
+  border-radius: 5px;
+  border: 2px solid #D64374;
+  opacity: 0.5;
+  padding: 20px 40px 19px 32px;
+  color: #FFF;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  opacity: 0.6;
+}
+
+.subscribe_btn {
+  width: 125px;
+  height: 55px;
+  border-radius: 5px;
+  background: #D23166;
+  padding: 16px 18px;
+  text-decoration: none;
+}
+
+.futer_subscribe{
+  color: #FFF;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+}
+.cards {
+  padding-right: 15px;
+}
